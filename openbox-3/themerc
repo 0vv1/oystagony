@@ -1,9 +1,9 @@
-! @author   (cc by-nc-sa 4.0) 2014 - 2019 Alexander Puls <https://github.com/0vv1>
+! @author   (cc by-nc-sa 4.0) 2015 - 2019 Alexander Puls <https://0vv1.io>
 ! @version  1.0-beta201905
 ! @license  Creative Commons Attribution-NonCommercial-ShareAlike 4.0
 !           International Public License
 !           <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
-! --------------------------------------------------------------------------------
+! ------------------------------------------------------------------------
 
 ! menu geometry -----------------
 menu.border.width:              1
@@ -87,4 +87,4 @@ window.inactive.grip.bg:                parentrelative
 window.active.client.color:             #eae6ca
 window.inactive.client.color:           #eae6ca
 
-! EOF ~/.themes/Oystagony/openbox-3/themerc --------------------------------------
+! EOF ~/.themes/Oystagony/openbox-3/themerc ------------------------------
