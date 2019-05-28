@@ -1,0 +1,45 @@
+! @author   (cc by-nc-sa 4.0) 2018 - 2019 Alexander Puls <https://github.com/0vv1>
+! @version  1.0-beta201905
+! @license  Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+!           International Public License
+!           <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
+! --------------------------------------------------------------------------------
+
+! special -------------
+*.foreground:   #eae6ca
+*.background:   #4c2f26
+*.cursorColor:  #a2c1f5
+
+! black ---------------
+*.color0:       #402c26
+*.color8:       #9b8b78
+
+! red -----------------
+*.color1:       #bf737c
+*.color9:       #bf431d
+
+! green ---------------
+*.color2:       #73b36b
+*.color10:      #789c80
+
+! yellow --------------
+*.color3:       #b3a436
+*.color11:      #735d4f
+
+! blue ----------------
+*.color4:       #7987f2
+*.color12:      #80789c
+
+! magenta -------------
+*.color5:       #cc6cd9
+*.color13:      #ac1dbf
+
+! cyan ----------------
+*.color6:       #a2c1f5
+*.color14:      #3dabcc
+
+! white ---------------
+*.color7:       #c3b8a1
+*.color15:      #fcfaeb
+
+! EOF ~/.themes/Oystagony/Xresources ---------------------------------------------
