@@ -1,16 +1,16 @@
-! @author   (cc by-nc-sa 4.0) 2015 - 2019 Alexander Puls <https://0vv1.io>
-! @version  1.0-beta201905
-! @license  Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-!           International Public License
-!           <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
-! ------------------------------------------------------------------------
+! @author	(cc by-nc-sa 4.0) 2015 - 2020 Alexander Puls <https://0vv1.io>
+! @version	1.0-beta201905
+! @license	Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+!			International Public License
+!			<https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
+! ------------------------------------------------------------------------------
 
 ! urxvt (more) colors -----------------
-URxvt*background:           [98]#4c2f26
-URxvt*tabbed.tabbar-fg:     0
-URxvt*tabbed.tabbar-bg:     11
-URxvt*tabbed.tab-fg:        0
-URxvt*tabbed.tab-bg:        6
-URxvt*underlineColor:       #a2c1f5
+URxvt*background:			[98]#4c2f26
+URxvt*tabbed.tabbar-fg:		0
+URxvt*tabbed.tabbar-bg:		11
+URxvt*tabbed.tab-fg:		0
+URxvt*tabbed.tab-bg:		6
+URxvt*underlineColor:		#a2c1f5
 
-! EOF ~/.themes/Oystagany/Xresources.urxvt.colors ------------------------
+! $HOME/.themes/Oystagany/Xresources.urxvt.colors ------------------------------

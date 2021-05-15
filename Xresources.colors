@@ -1,9 +1,9 @@
-! @author   (cc by-nc-sa 4.0) 2014 - 2019 Alexander Puls <https://0vv1.io>
-! @version  1.0-beta201905
-! @license  Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-!           International Public License
-!           <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
-! ------------------------------------------------------------------------
+! @author	(cc by-nc-sa 4.0) 2014 - 2020 Alexander Puls <https://0vv1.io>
+! @version	1.0-beta201905
+! @license	Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+!			International Public License
+!			<https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
+! ------------------------------------------------------------------------------
 
 ! special -------------
 *.foreground:   #eae6ca
@@ -42,4 +42,4 @@
 *.color7:       #c3b8a1
 *.color15:      #fcfaeb
 
-! EOF ~/.themes/Oystagony/Xresources.colors ------------------------------
+! $HOME/.themes/Oystagony/Xresources.colors ------------------------------------

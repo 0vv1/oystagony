@@ -1,128 +1,128 @@
-# @author   (cc by-nc-sa 4.0) 2016 - 2019 Alexander Puls <https://0vv1.io>
-# @version  1.0-beta201905
-# @license  Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-#           International Public License
-#           <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
-# ------------------------------------------------------------------------
+# @author	(cc by-nc-sa 4.0) 2016 - 2020 Alexander Puls <https://0vv1.io>
+# @version	1.0-beta201905
+# @license	Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+#			International Public License
+#			<https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
+# ------------------------------------------------------------------------------
 
 style "default" {
-    GtkOptionMenu::indicator_spacing = { 3, 2, 1, 1 }
-    GtkEntry::progress-border = { 1, 1, 1, 1 }
-    GtkRange::slider_width = 11
-    GtkRange::stepper_size = 11
-    GtkScrollbar::min_slider_length = 14
-    GtkCheckButton::indicator_size = 10
-    GtkCheckMenuItem::indicator_size = 10
-    GtkButton::default_border = { 0, 0, 0, 0 }
+	GtkOptionMenu::indicator_spacing = { 3, 2, 1, 1 }
+	GtkEntry::progress-border = { 1, 1, 1, 1 }
+	GtkRange::slider_width = 11
+	GtkRange::stepper_size = 11
+	GtkScrollbar::min_slider_length = 14
+	GtkCheckButton::indicator_size = 10
+	GtkCheckMenuItem::indicator_size = 10
+	GtkButton::default_border = { 0, 0, 0, 0 }
 
-    fg[NORMAL]        = "#C3B8A1" # white2
-    bg[NORMAL]        = "#402C26" # dark
+	fg[NORMAL]			= "#C3B8A1" # white2
+	bg[NORMAL]			= "#402C26" # dark
     
-    text[NORMAL]      = "#EAE6CA" # oyster
-    base[NORMAL]      = "#4C2F26" # mahagony
+	text[NORMAL]		= "#EAE6CA" # oyster
+	base[NORMAL]		= "#4C2F26" # mahagony
     
-    fg[ACTIVE]        = "#EAE6CA" # oyster for buttons, tabs
-    bg[ACTIVE]        = "#4C2F26" # mahagony
+	fg[ACTIVE]			= "#EAE6CA" # oyster for buttons, tabs
+	bg[ACTIVE]			= "#4C2F26" # mahagony
     
-    text[ACTIVE]      = "#EAE6CA" # oyster for lists
-    base[ACTIVE]      = "#735D4F" # yellow2 (brown)
+	text[ACTIVE]		= "#EAE6CA" # oyster for lists
+	base[ACTIVE]		= "#735D4F" # yellow2 (brown)
     
-    fg[PRELIGHT]      = "#402C26" # dark
-    bg[PRELIGHT]      = "#735D4F" # yellow2 (brown)
+	fg[PRELIGHT]		= "#402C26" # dark
+	bg[PRELIGHT]		= "#735D4F" # yellow2 (brown)
     
-    text[PRELIGHT]    = "#4C2F26" # mahgony
-    base[PRELIGHT]    = "#60463B" # mahagony - yellow2
+	text[PRELIGHT]		= "#4C2F26" # mahgony
+	base[PRELIGHT]		= "#60463B" # mahagony - yellow2
     
-    fg[SELECTED]      = "#4C2F26" # mahagony
-    bg[SELECTED]      = "#A2C1F5" # lightblue
+	fg[SELECTED]		= "#4C2F26" # mahagony
+	bg[SELECTED]		= "#A2C1F5" # lightblue
     
-    text[SELECTED]    = "#4C2F26" # mahagony
-    base[SELECTED]    = "#C3B8A1" # white2
+	text[SELECTED]		= "#4C2F26" # mahagony
+	base[SELECTED]		= "#C3B8A1" # white2
     
-    fg[INSENSITIVE]   = "#C3B8A1" # white2
-    bg[INSENSITIVE]   = "#60463B" # mahagony - yellow2
+	fg[INSENSITIVE]		= "#C3B8A1" # white2
+	bg[INSENSITIVE]		= "#60463B" # mahagony - yellow2
     
-    text[INSENSITIVE] = "#C3B8A1" # white2
-    base[INSENSITIVE] = "#735D4F" # yellow2 (brown)
+	text[INSENSITIVE]	= "#C3B8A1" # white2
+	base[INSENSITIVE]	= "#735D4F" # yellow2 (brown)
 
-    #font_name = ""
-    engine "thinice" {
-        # scrollbar rectangular or shaped
-        rect_scrollbar = TRUE
+	#font_name = ""
+	engine "thinice" {
+		# scrollbar rectangular or shaped
+		rect_scrollbar = TRUE
 
-        # semi-generic, can be applied to different widget classes
+		# semi-generic, can be applied to different widget classes
 
-        # used on scrollbar handles, handleboxes etc
-        # can be NOTHING, SLASH, INVSLASH, DOT, INVDOT
-        mark_type1 = INVSLASH
+		# used on scrollbar handles, handleboxes etc
+		# can be NOTHING, SLASH, INVSLASH, DOT, INVDOT
+		mark_type1 = INVSLASH
 
-        # used on scrollbar buttons
-        # can be NOTHING, SLASH, INVSLASH, DOT, INVDOT, ARROW
-        mark_type2 = ARROW
+		# used on scrollbar buttons
+		# can be NOTHING, SLASH, INVSLASH, DOT, INVDOT, ARROW
+		mark_type2 = ARROW
 
-        # paned stuff
-        # can be NONE, SOME (currently 5), FULL
-        paned_dots = SOME
-        }
-    }
+		# paned stuff
+		# can be NONE, SOME (currently 5), FULL
+		paned_dots = SOME
+		}
+	}
 
 style "bttn" {
-    bg[NORMAL]          = "#60463B" # mahagony - yellow2
-    }
+	bg[NORMAL]			= "#60463B" # mahagony - yellow2
+	}
 
 style "entry" {
-    fg[SELECTED]        = "#4C2F26" # mahagony
-    bg[SELECTED]        = "#A2C1F5" # lightblue
-    }
+	fg[SELECTED]		= "#4C2F26" # mahagony
+	bg[SELECTED]		= "#A2C1F5" # lightblue
+	}
 
 style "menu" {
-    xthickness          = 3
-    ythickness          = 3
-    bg[NORMAL]          = "#9B8B78" # white3
-    }
+	xthickness			= 3
+	ythickness			= 3
+	bg[NORMAL]			= "#9B8B78" # white3
+	}
  
 style "menu-bar" {
-    xthickness          = 2
-    ythickness          = 2
-    bg[NORMAL]          = "#735D4F" # yellow2 (brown)
-    }
+	xthickness			= 2
+	ythickness			= 2
+	bg[NORMAL]			= "#735D4F" # yellow2 (brown)
+	}
 
 style "menu-item" {
-    fg[NORMAL]          = "#402C26" # dark
-    fg[ACTIVE]          = "#402C26" # dark
-    bg[ACTIVE]          = "#73B36B" # green
-    fg[PRELIGHT]        = "#4C2F26" # mahagony
-    bg[PRELIGHT]        = "#A2C1F5" # lightblue
-    text[PRELIGHT]      = "#4C2F26" # mahagony
-    base[PRELIGHT]      = "#A2C1F5" # lightblue
-    bg[SELECTED]        = "#9B8B78" # white3
-    }
+	fg[NORMAL]			= "#402C26" # dark
+	fg[ACTIVE]			= "#402C26" # dark
+	bg[ACTIVE]			= "#73B36B" # green
+	fg[PRELIGHT]		= "#4C2F26" # mahagony
+	bg[PRELIGHT]		= "#A2C1F5" # lightblue
+	text[PRELIGHT]		= "#4C2F26" # mahagony
+	base[PRELIGHT]		= "#A2C1F5" # lightblue
+	bg[SELECTED]		= "#9B8B78" # white3
+	}
 
 style "progress-bar" {
-    fg[PRELIGHT]        = "#735D4f" # yellow2 (brown)
-    bg[PRELIGHT]        = "#A2C1F5" # lightblue
-    bg[NORMAL]          = "#4C2F26" # mahagony
-    }
+	fg[PRELIGHT]		= "#735D4f" # yellow2 (brown)
+	bg[PRELIGHT]		= "#A2C1F5" # lightblue
+	bg[NORMAL]			= "#4C2F26" # mahagony
+	}
 
 style "scroll-bar" {
-    bg[NORMAL]          = "#60463B" # mahagony - yellow2
-    }
+	bg[NORMAL]			= "#60463B" # mahagony - yellow2
+	}
 
 style "tooltip" {
-    bg[NORMAL]          = "#A2C1F5" # lightblue
-    fg[NORMAL]          = "#4C2F26" # mahagony
-    }
+	bg[NORMAL]			= "#A2C1F5" # lightblue
+	fg[NORMAL]			= "#4C2F26" # mahagony
+	}
 
-class           "GtkWidget"         style "default"
-class           "*GtkButton*"       style "bttn"
-widget          "gtk-tooltip*"      style "tooltip"
-class           "GtkProgressBar"    style "progress-bar"
-class           "*GtkMenu*"         style "menu"
-class           "*MenuBar*"         style "menu-bar"
-class           "*GtkEntry*"        style "entry"
-class           "*MenuItem*"        style "menu-item"
-widget_class    "*MenuItem*"        style "menu-item"
-widget_class    "*Scale*"           style "scroll-bar"
-widget_class    "*Scrollbar*"       style "scroll-bar"
+class			"GtkWidget"			style "default"
+class			"*GtkButton*"		style "bttn"
+widget			"gtk-tooltip*"		style "tooltip"
+class			"GtkProgressBar"	style "progress-bar"
+class			"*GtkMenu*"			style "menu"
+class			"*MenuBar*"			style "menu-bar"
+class			"*GtkEntry*"		style "entry"
+class			"*MenuItem*"		style "menu-item"
+widget_class	"*MenuItem*"		style "menu-item"
+widget_class	"*Scale*"			style "scroll-bar"
+widget_class	"*Scrollbar*"		style "scroll-bar"
 
-# EOF ~/.themes/Oystagony/gtk-2.0/gtkrc ----------------------------------
+# $HOME/.themes/Oystagony/gtk-2.0/gtkrc ----------------------------------------
