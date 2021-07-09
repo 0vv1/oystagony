@@ -13,14 +13,8 @@ The Openbox title bar buttons are taken from the Natura (default) theme (I think
 ## donation 
   
 [![button: BMAC](https://0vv1.github.io/img/button/Buy-me-a-Coffee_default-orange.png)](https://buymeacoffee.com/0vv1) &nbsp; &nbsp; &nbsp; &nbsp; 
-[![button: PayPal](https://0vv1.github.io/img/button/donate_PayPal.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=M0N0@0vv1.io&lc=DE&item_name=Donation+for+0vv1.io&no_note=0&cn=&currency_code=EUR&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted)
-</br></br>
-<p>
-<details>
-<summary>Monero</summary>
-<pre><img src="https://0vv1.github.io/img/button/add.receive.mnr+button.png"></pre>
-</details>
-</p>
+</br>
+
 <p>
 <details>
 <summary>BitCoin</summary>
